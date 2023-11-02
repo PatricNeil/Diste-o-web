@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabajo Final</title>
+    <link rel="icon" href="IMG/lugares/fugi.jpg" />
+  </head>
+
+  <body
+    style="
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding: 0;
+      margin: 0;
+    "
+  >
+    <header
+      style="
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        padding: 50px;
+      "
+    >
+      <h1 style="margin: 0">FORMULARIO Y TABLA</h1>
+    </header>
+    <main>
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 600px;
+          background-image: url(IMG/wallpaper/fondo1.jfif);
+          margin: 0;
+        "
+      >
+        <form
+          style="
+            text-align: left;
+            background-color: #000000;
+            padding: 30px;
+            color: #fff;
+          "
+        >
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" /><br /><br />
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" /><br /><br />
+          <label for="numero">Numero de telefono:</label>
+          <input type="tel" id="numero" name="numero" /><br /><br />
+          <label for="fecha">Fecha:</label>
+          <input type="datetime-local" id="fecha" name="fecha" /><br /><br />
+          <label for="sexo">SEXO</label><br /><br />
+          <label for="masculino">Masculino</label>
+          <input
+            type="checkbox"
+            name="checkMasculino"
+            id="checkMasculino"
+          /><br />
+          <label for="masculino">Femenino</label>
+          <input
+            type="checkbox"
+            name="checkFemenino"
+            id="checkFemenino"
+          /><br /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br /><br />
+          <label for="contraseña">Contraseña:</label>
+          <input
+            type="password"
+            name="contraseña"
+            id="contraseña"
+          /><br /><br />
+          <label for="verificar">Verificacion:</label>
+          <input type="password" name="verificar" id="verificar" /><br /><br />
+
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+
+      <h2 style="text-align: center; margin-top: 100px">TABLA COMPARATIVA</h2>
+
+      <table
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 30px;
+          margin: 0;
+        "
+      >
+        <tr>
+          <th style="background-color: blue; padding: 5px; text-align: left">
+            Caracteristica
+          </th>
+          <th style="background-color: blue; padding: 5px; text-align: left">
+            Nissan GT-R R35
+          </th>
+          <th style="background-color: blue; padding: 5px; text-align: left">
+            Toyota Supra MK4
+          </th>
+        </tr>
+        <tr>
+          <td style="background-color: blueviolet; padding: 5px">
+            Año de Producción
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            2007-presente
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">1993-2002</td>
+        </tr>
+        <tr>
+          <td style="background-color: blueviolet; padding: 5px">Motor</td>
+          <td style="background-color: blueviolet; padding: 5px">
+            V6 twin-turbo VR38DETT
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Inline-6 twin-turbo 2JZ-GTE
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: blueviolet; padding: 5px">
+            Potencia (varía <br />según modelo)
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Aproximadamente 480-600+ HP
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Aproximadamente 320-330 HP <br />(de fábrica)
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: blueviolet; padding: 5px">
+            Transmisión
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Doble embrague automática <br />de 6 velocidades (algunos
+            <br />modelos tienen manual)
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Manual de 6 velocidades
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: blueviolet; padding: 5px">Tracción</td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Integral (AWD)
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Trasera (RWD)
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: blueviolet; padding: 5px">
+            0-60 mph <br />(segundos)
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Aprox. 2.9 - 3.5 seg
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Aprox. 4.6 - 5.4 seg
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: blueviolet; padding: 5px">
+            Velocidad Máxima <br />
+            (mph)
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Aprox. 196 - 206 mph
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Limitada electrónicamente <br />a 155 mph <br />(puede ser
+            deslimitada)
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: blueviolet; padding: 5px">
+            Peso <br />(varía según modelo)
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Aprox. 1,740 - 1,830 kg
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Aprox. 1,400 - 1,600 kg
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: blueviolet; padding: 5px">Suspensión</td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Suspensión independiente <br />en las cuatro ruedas con
+            <br />amortiguadores ajustables
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Suspensión independiente en<br />las cuatro ruedas
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: blueviolet; padding: 5px">Frenos</td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Discos ventilados, pinzas <br />Brembo de alto rendimiento
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Discos ventilados, pinzas de <br />freno de alto rendimiento
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: blueviolet; padding: 5px">Diseño</td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Aspecto moderno, líneas <br />agresivas
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Diseño clásico de los años <br />90, líneas limpias y curvas
+            <br />elegantes
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color: blueviolet; padding: 5px">
+            Cultura y Legado
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Ampliamente reconocido <br />como un superauto de alto
+            <br />rendimiento y participante <br />en carreras de GT
+          </td>
+          <td style="background-color: blueviolet; padding: 5px">
+            Un ícono de la cultura de <br />los autos deportivos japoneses,
+            <br />especialmente en la escena de <br />tuning
+          </td>
+        </tr>
+      </table>
+    </main>
+    <footer
+      style="
+        background-color: #000000;
+        color: #fff;
+        text-align: center;
+        padding: 45px;
+      "
+    >
+      <p style="margin: 0">Diseño Web</p>
+    </footer>
+  </body>
+</html>
