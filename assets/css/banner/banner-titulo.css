@@ -1,0 +1,10 @@
+
+.banner__titulo{
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    top: 50%;
+    text-align: center;
+}
