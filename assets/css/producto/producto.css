@@ -3,9 +3,10 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
+    border-radius: 16px;
 }
 @media screen and (min-width:0) {
     .producto{
-        margin-right: 1rem;
+        margin-right: 1.7rem;
     }
 }

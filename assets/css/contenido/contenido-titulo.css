@@ -1,15 +1,15 @@
 .contenido__titulo{
-    color: red;
-    font-family: 'Inconsolata';
+    color: #27080f;
+    font-family:'Orbitron';
 
 }
 @media screen and (min-width:0) {
-    .contenido__mensaje{
+    .contenido__titulo{
         font-size: 2rem;
     }
 }
 @media screen and (min-width:768px) {
-    .contenido__mensaje{
-        font-size: 2.5rem;
+    .contenido__titulo{
+        font-size: 5rem;
     }
 }
