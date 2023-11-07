@@ -1,0 +1,8 @@
+.piedepagina__titulo{
+    color: #333;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    padding: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}

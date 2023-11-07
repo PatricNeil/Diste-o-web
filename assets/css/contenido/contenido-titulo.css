@@ -1,5 +1,15 @@
 .contenido__titulo{
     color: red;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inconsolata';
 
+}
+@media screen and (min-width:0) {
+    .contenido__mensaje{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .contenido__mensaje{
+        font-size: 2.5rem;
+    }
 }
